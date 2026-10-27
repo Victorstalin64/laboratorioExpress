@@ -1,0 +1,16 @@
+{
+  "name": "laboratorio-express-trans-andes",
+  "version": "1.0.0",
+  "description": "Fundamentos de Express - Cooperativa de buses Trans Andes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

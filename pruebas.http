@@ -1,0 +1,42 @@
+### Compatible con la extensión "REST Client" de VS Code (o usa Postman / Thunder Client)
+
+### Response básico
+GET http://localhost:3000/
+
+### Request con BODY
+POST http://localhost:3000/boletos
+Content-Type: application/json
+
+{ "pasajero": "Marcelo Tipán", "destino": "Cuenca" }
+
+### Request con PARAMS
+POST http://localhost:3000/encomiendas/Loja
+
+### Request con QUERY
+POST http://localhost:3000/reservas?asiento=12&servicio=ejecutivo
+
+### Response texto
+GET http://localhost:3000/conductores
+
+### Response JSON
+GET http://localhost:3000/buses
+
+### Response sendFile (imagen)
+GET http://localhost:3000/mapa-rutas
+
+### Response HTML
+GET http://localhost:3000/equipaje
+
+### Middleware - ruta pública (sin token)
+GET http://localhost:3000/informacion
+
+### Middleware - ruta protegida SIN token (acceso denegado)
+GET http://localhost:3000/panel-administrador
+
+### Middleware - ruta protegida CON token
+GET http://localhost:3000/panel-administrador
+token: terminal2026
+
+### 404
+GET http://localhost:3000/rutainexistente
+token: terminal2026
