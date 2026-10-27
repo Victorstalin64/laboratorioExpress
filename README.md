@@ -96,9 +96,8 @@ curl http://localhost:3000/panel-administrador -H "token: terminal2026"
 | GRUPO - # | |
 |---|---|
 | **Integrantes** | **Link del repositorio** |
-| Nombre Apellido 1 | https://github.com/usuario/laboratorio-trans-andes |
-| Nombre Apellido 2 | |
-| Nombre Apellido 3 | |
+| Victor Calapaqui| https://github.com/usuario/laboratorio-trans-andes |
+| Lizbeth Sanchez| |
 | **Observación:** | Todos los integrantes participaron en el laboratorio. |
 
 ---
